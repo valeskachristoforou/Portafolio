@@ -1,0 +1,133 @@
+/* FONT */
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+/* HEADER */
+.navbar {
+  background-color: #ff8906;
+  padding: 0.5rem 0;
+}
+
+.text-navbar {
+  color: #fffffe !important; /* El !important asegura que se aplique el color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; /* Centra el nombre y apellido */
+  padding-left: 20px; /* Añade espacio entre el logo y el texto */
+}
+
+/* Ajustes para destacar el nombre y apellido */
+.navbar-brand {
+  display: flex;
+  align-items: center; /* Alinea el logo con el texto verticalmente */
+}
+
+.first-name {
+  display: block;
+  font-size: 1.8rem; /* Tamaño ligeramente más pequeño para el nombre */
+  font-weight: 300; /* Peso más ligero para crear contraste */
+  letter-spacing: 0.1em; /* Mayor espaciado entre letras para un estilo moderno */
+  line-height: 0; /* Ajusta el espaciado vertical */
+}
+
+.last-name {
+  display: block;
+  font-size: 2rem; /* Tamaño más grande para el apellido */
+  font-weight: 700; /* Negrita para destacar el apellido */
+  letter-spacing: 0.05em; /* Añade un pequeño espaciado entre letras */
+  line-height: 0; /* Ajusta el espacio entre líneas */
+}
+
+/* Ajuste para que el contenido no quede oculto debajo del navbar */
+body {
+  padding-top: 100px; /* Ajusta este valor según la altura de tu navbar */
+}
+
+/* HERO SECTION */
+.hero {
+  background-color: #f25f4c71;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #fffffe;
+}
+
+/* Imagen del perfil */
+.img-profile {
+  border-radius: 100%; /* Hace la imagen redonda */
+  object-fit: cover; /* Asegura que la imagen mantenga su proporción */
+}
+
+/* H2 Styling */
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: #ff8906;
+  font-size: 2rem; /* Ajusta según sea necesario */
+  font-weight: 700;
+  text-align: center; /* Centra todos los títulos H2 */
+  margin-bottom: 2rem; /* Espacio debajo del H2 */
+}
+
+/* SERVICES/SKILLS */
+.skill-title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #f25f4c;
+}
+
+.card-text,
+.card-text-project {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  color: #0f0e17;
+}
+
+.img-secondary {
+  width: 100%; /* Ajusta al ancho del contenedor */
+  height: 250px; /* Fija la altura de las imágenes */
+  object-fit: cover; /* Recorta para llenar sin distorsión */
+}
+
+/* Align the secondary text to the left */
+.card-body {
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+/* Add padding between images and titles */
+.card-body h5 {
+  padding-top: 10px; /* Espacio entre imagen y título */
+}
+
+/* Customize buttons */
+.btn-outline-primary {
+  color: #0f0e17; /* Color texto */
+  border-color: #ff8906; /* Color borde */
+  border-width: 2px; /* Borde más grueso */
+  padding: 10px 20px; /* Padding para botón más grande */
+}
+
+.btn-outline-primary:hover {
+  background-color: #ff8906; /* Fondo al pasar el mouse */
+  color: #ffffff; /* Texto al pasar el mouse */
+}
+
+/* FOOTER */
+footer {
+  background-color: #0f0e17;
+  color: #fffffe;
+  padding: 1rem 0;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+}
