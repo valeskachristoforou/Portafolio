@@ -1,4 +1,4 @@
-// Espera que el DOM esté listo
+// Espera que el DOM esté listo (JavaScript puro)
 document.addEventListener("DOMContentLoaded", () => {
   // Smooth scroll para los enlaces de navbar
   const links = document.querySelectorAll('a.nav-link');
@@ -23,3 +23,17 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+// Código jQuery básico para demostrar uso de jQuery en la tarea
+$(document).ready(function() {
+  // Cambiar el color del botón "Get Started" cuando se pasa el mouse
+  $('.btn-outline-primary.w-25').hover(
+    function() {
+      $(this).css('background-color', '#ff8906').css('color', '#fff');
+    },
+    function() {
+      $(this).css('background-color', '').css('color', '');
+    }
+  );
+});
+
